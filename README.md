@@ -26,3 +26,8 @@ http://localhost:8080/actuator/prometheus
 https://springdoc.org/
 
 http://localhost:8080/swagger-ui/index.html
+
+# Docker
+
+docker build -t sb01:latest .
+docker run -d -p 8080:8080 sb01:latest
